@@ -10,7 +10,7 @@ My Portfolio Website and showcase of my web development skills, services, and pr
 - [Getting Started 🏁](#getting-started)
 - [Project Structure 🗂️](#project-structure)
   
-## Demo Link Here 🔗
+## [Demo Link Here 🔗](https://hamza-zaidi-portfolio-jade.vercel.app/)
 
 ## Screenshots 📸
 ![portfolio](https://github.com/user-attachments/assets/a2160246-3305-454c-bcdd-de4b0926f03b)
