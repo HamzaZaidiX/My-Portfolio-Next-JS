@@ -13,8 +13,9 @@ My Portfolio Website and showcase of my web development skills, services, and pr
 ## Demo Link Here 🔗
 
 ## Screenshots 📸
-![portfolio](https://github.com/user-attachments/assets/e4a155bc-301c-45ea-ba1f-88a04959ccfd)
-![projects](https://github.com/user-attachments/assets/8b7c5e25-3078-4b5d-8795-02b61a3c052e)
+![portfolio](https://github.com/user-attachments/assets/a2160246-3305-454c-bcdd-de4b0926f03b)
+![projects](https://github.com/user-attachments/assets/89f2bf53-39ed-472d-9d7c-344599d95b3f)
+
 
 ## Materials Used 🛠️
 
