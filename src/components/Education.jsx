@@ -7,7 +7,7 @@ const education = [
     id: 1,
     type: "Bachelor's in Computer Science",
     place: "Iqra University, Karachi",
-    time: "June 2020 - Present",
+    time: "June 2020 - Feb 2025",
     info: "A Bachelor's of Science in Computer Science is a specialized undergraduate program that focuses on the design and development of software systems and applications, preparing students for careers in software engineering and programming.",
   },
   {
