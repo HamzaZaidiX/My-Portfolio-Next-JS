@@ -7,7 +7,7 @@ const education = [
     id: 1,
     type: "Bachelor's in Computer Science",
     place: "Iqra University, Karachi",
-    time: "June 2020 - Feb 2025",
+    time: "Completed in 2025",
     info: "A Bachelor's of Science in Computer Science is a specialized undergraduate program that focuses on the design and development of software systems and applications, preparing students for careers in software engineering and programming.",
   },
   {
@@ -15,7 +15,7 @@ const education = [
     type: "Pre-Engineering ",
     place:
       "Govt. Jinnah Boys College",
-    time: "2018 - 2019",
+    time: "Completed in 2019",
     info: "Intermidiate",
 
   },
@@ -24,7 +24,7 @@ const education = [
     type: "Computer Science",
     place:
       "Fatimiyah Boys School",
-    time: "2017",
+    time: "Completed in 2017",
     info: "Matriculation",
   },
 ];
