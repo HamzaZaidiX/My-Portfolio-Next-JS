@@ -47,8 +47,8 @@ const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
             {title}
           </h2>
         </Link>
-        <p className="my-2 font-medium text-gray-500 text-dark dark:text-light sm:text-sm">
-          {summary}{'...'}
+        <p className="my-2 font-medium text-gray-500 text-dark dark:text-light sm:text-sm line-clamp-3">
+          {summary}
         </p>
         <div className="flex items-center mt-2">
           <Link href={github} target="_blank" className="w-10">
@@ -89,8 +89,8 @@ const Project = ({ type, title, img, link, github, summary }) => {
         <span className="text-xl font-medium text-[#3374c9] dark:text-[#3374c9] lg:text-lg md:text-base">
           {type}
         </span>
-        <span className="text-sm font-medium text-gray-500 text-dark dark:text-light lg:text-lg md:text-base">
-          {summary}{'...'}
+        <span className="text-sm font-medium text-gray-500 text-dark dark:text-light lg:text-lg md:text-base line-clamp-3">
+          {summary}
         </span>
         <Link
           href={link}
@@ -209,7 +209,7 @@ const projects = () => {
               href="https://github.com/HamzaZaidiX?tab=repositories"
               target={"_blank"}
               style={{}}
-              className="flex flex-nowrap text-center justify-center items-center self-start bg-dark text-light mt-5 md:flex-nowrap md:gap-2 md:justify-start lg:self-center ml-4 text-lg font-semibold capitalize  hover:bg-light hover:text-dark border-2 p-2.5 rounded-lg border-solid border-transparent hover:border-dark dark:border-light md:p-2 md:px-4 md:text-base"
+              className="flex flex-nowrap text-center justify-center items-center self-start bg-dark text-light mt-5 md:flex-nowrap md:gap-2 md:justify-center lg:self-center ml-4 text-lg font-semibold capitalize  hover:bg-light hover:text-dark border-2 p-2.5 rounded-lg border-solid border-transparent hover:border-dark dark:border-light md:p-2 md:px-4 md:text-base"
             >
               See More Projects
               <DownArrowIcon className="ml-1 text-white w-7 hover:text-dark" />
