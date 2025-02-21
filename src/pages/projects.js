@@ -41,7 +41,7 @@ const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
         <Link
           href={link}
           target="_blank"
-          className="hover:underline underline-offset-2"
+          className="hover:underline underline-offset-3 decoration-wavy decoration-[#3374c9]"
         >
           <h2 className="w-full my-2 text-4xl font-bold text-left dark:text-light sm:text-sm">
             {title}
@@ -89,18 +89,18 @@ const Project = ({ type, title, img, link, github, summary }) => {
         <span className="text-xl font-medium text-[#3374c9] dark:text-[#3374c9] lg:text-lg md:text-base">
           {type}
         </span>
-        <span className="text-sm font-medium text-gray-500 text-dark dark:text-light lg:text-lg md:text-base line-clamp-3">
-          {summary}
-        </span>
         <Link
           href={link}
           target="_blank"
-          className="hover:underline underline-offset-2"
+          className="hover:underline underline-offset-3 decoration-wavy decoration-[#3374c9]"
         >
-          <h2 className="w-full my-2 text-3xl font-bold text-left lg:text-2xl">
+          <h2 className="w-full my-2 text-4xl font-bold text-left dark:text-light sm:text-sm">
             {title}
           </h2>
         </Link>
+        <span className="my-2 font-medium text-gray-500 text-dark dark:text-light sm:text-sm line-clamp-3">
+          {summary}
+        </span>
         <div className="flex items-center justify-between w-full mt-2">
           <Link
             href={link}
