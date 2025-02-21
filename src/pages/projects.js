@@ -59,7 +59,7 @@ const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
             target="_blank"
             className="p-2 px-6 ml-4 text-lg font-semibold rounded-lg bg-dark text-light dark:bg-light dark:text-dark sm:px-4 sm:text-base"
           >
-            Visit Project
+            Demo
           </Link>
         </div>
       </div>
@@ -107,7 +107,7 @@ const Project = ({ type, title, img, link, github, summary }) => {
             target="_blank"
             className="p-2 px-3 text-lg font-semibold border border-solid rounded-lg cursor-pointer border-dark hover:bg-dark hover:text-light dark:border-light dark:text-light md:text-base"
           >
-            Visit
+            Demo
           </Link>
           <Link href={github} target="_blank" className="w-8 md:w-6">
             <GithubIcon />
@@ -204,7 +204,7 @@ const projects = () => {
         username="HamzaZaidiX"
       />
     </div>
-          <div className="flex items-center self-start justify-center text-center flex-nowrap md:flex-nowrap md:gap-2 md:justify-start lg:self-center">
+          <div className="flex items-center self-start justify-center text-center flex-nowrap md:flex-nowrap md:gap-2 md:justify-center lg:self-center">
             <Link
               href="https://github.com/HamzaZaidiX?tab=repositories"
               target={"_blank"}
