@@ -18,14 +18,14 @@ const Home = () => {
         <meta name="description" content="This is the home page for the Hamza Zaidi Portfolio website" />
       </Head>
       <TransitionEffect />
-      <main className="flex items-center w-full min-h-screen pt-16 mt-24 text-dark">
+      <main className="flex items-center w-full min-h-screen pt-16 mt-12 text-dark">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-center w-full lg:flex-col">
-            <div className="items-center w-1/2 mr-12 md:w-full">
+            <div className="items-center justify-center w-1/2 mb-2 md:w-full">
               <Image
                 src={profilePic}
                 alt="Hamza Zaidi"
-                className="items-center w-full h-auto lg:hidden md:inline-block md:w-full"
+                className="items-center w-full h-auto lg:hidden md:flex md:w-full"
                 priority
                 sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw, 50vw object-fit"
               />
