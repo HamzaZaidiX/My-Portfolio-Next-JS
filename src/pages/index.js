@@ -21,7 +21,7 @@ const Home = () => {
       <main className="flex items-center w-full min-h-screen pt-16 mt-12 text-dark">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-center w-full lg:flex-col">
-            <div className="items-center justify-center w-1/2 mb-2 md:w-full">
+            <div className="items-center justify-center w-1/2 mb-4 mr-8 md:m-0 md:w-full">
               <Image
                 src={profilePic}
                 alt="Hamza Zaidi"
