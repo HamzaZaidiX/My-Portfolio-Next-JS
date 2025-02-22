@@ -31,7 +31,7 @@ const Services = () => {
               {/* Heading */}
               <AnimatedText
                 text="The Services We Offer!"
-                className="mb-16 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold"
+                className="mb-10 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold"
               />
 
               {/* Grid Layout */}
