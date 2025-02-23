@@ -15,7 +15,7 @@ const Footer = () => {
           by &nbsp;
           <Link
             href="https://github.com/HamzaZaidiX/"
-            className="text-black dark:text-primaryDark underline underline-offset-4 decoration-wavy decoration-indigo-400 hover:decoration-indigo-500"
+            className="underline underline-offset-4 decoration-wavy decoration-indigo-400 hover:decoration-indigo-500"
             target={"_blank"}
           >Hamza Zaidi
           </Link>
