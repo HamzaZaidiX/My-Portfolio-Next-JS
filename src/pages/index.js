@@ -52,7 +52,7 @@ const Home = () => {
   I&#39;m a passionate front-end web developer, 👨‍💻 blending creativity and technology to craft stunning websites that feel like they&#39;re from another dimension. 🪐 Explore my projects to see how I harness the power of technologies to give better user experiences that are truly out of this world! 🌌 Let&#39;s turn ideas into reality, one pixel at a time! 🚀
 </p>
               <div className="flex flex-wrap items-center self-start mt-2 md:flex-col md:gap-2 lg:self-center">
-                <Link href="https://drive.google.com/file/d/1TkfKb7YUjZSJoLf5kRwhPm4mDc44TEb9/view?usp=sharing" target={"_blank"}className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:border-light md:p-2 md:px-4 md:text-base" download={true}>Resume <LinkArrow className="w-6 ml-1" /></Link>
+                <Link href="https://drive.google.com/file/d/1qfWMPmBUV9iPy2ak4xhkkvjeDEl14x3p/view?usp=sharing" target={"_blank"}className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:border-light md:p-2 md:px-4 md:text-base" download={true}>Resume <LinkArrow className="w-6 ml-1" /></Link>
                 <Link href="https://linktr.ee/shjz" target={"_blank"} className="ml-4 text-lg font-medium hover:underline underline-offset-4 decoration-wavy decoration-primaryDark capitalize text-dark dark:text-light md:text-base md:m-0">Linktree</Link>
               </div>
             </div>
