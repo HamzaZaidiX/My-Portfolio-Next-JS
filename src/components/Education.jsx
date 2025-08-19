@@ -7,7 +7,7 @@ const education = [
     id: 1,
     type: "Bachelor's in Computer Science",
     place: "Iqra University, Karachi",
-    time: "Completed in 2025",
+    time: "2020 - 2025",
     info: "A Bachelor's of Science in Computer Science is a specialized undergraduate program that focuses on the design and development of software systems and applications, preparing students for careers in software engineering and programming.",
   },
   {
@@ -15,7 +15,7 @@ const education = [
     type: "Pre-Engineering ",
     place:
       "Govt. Jinnah Boys College",
-    time: "Completed in 2019",
+    time: "2017 - 2019",
     info: "Intermidiate",
 
   },
@@ -24,7 +24,7 @@ const education = [
     type: "Computer Science",
     place:
       "Fatimiyah Boys School",
-    time: "Completed in 2017",
+    time: "2015 - 2017",
     info: "Matriculation",
   },
 ];
@@ -34,7 +34,7 @@ const Details = ({ type, time, place, info }) => {
   return (
     <li
       ref={ref}
-      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]"
+      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col justify-between md:w-[80%]"
     >
       <ListIcon reference={ref} />
       <motion.div>
@@ -88,3 +88,4 @@ const Education = () => {
 };
 
 export default Education;
+
