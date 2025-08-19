@@ -5,6 +5,24 @@ import ListIcon from "./ListIcon";
 const experiences = [
   {
     id: 1,
+    position: "Internship",
+    company: "MM Pakistan (Pvt.) Ltd.",
+    companyLink: "",
+    time: "Jun - Jul 2025",
+    address: "Karachi",
+    work: "Internship",
+  },
+  {
+    id: 2,
+    position: "Web Developer Intern",
+    company: "Grocode Inc.",
+    companyLink: "",
+    time: "Aug - Sep 2024",
+    address: "Karachi",
+    work: "Web Development and Design",
+  },
+  {
+    id: 3,
     position: "Freelancing",
     company: "Freelance",
     companyLink: "",
@@ -13,11 +31,11 @@ const experiences = [
     work: "Web Development and Design",
   },
   {
-    id: 2,
+    id: 4,
     position: "Chat Support Agent",
     company: "TFC Call Center",
     companyLink: "",
-    time: "Mar 2023 - Feb 2024",
+    time: "Mar 2023 - Mar 2024",
     address: "Karachi",
     work: "Sales & Telemarketing",
   },
@@ -28,7 +46,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
   return (
     <li
       ref={ref}
-      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]"
+      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col justify-between md:w-[80%]"
     >
       <ListIcon reference={ref} />
       <motion.div>
@@ -92,3 +110,4 @@ const Experience = () => {
 };
 
 export default Experience;
+
