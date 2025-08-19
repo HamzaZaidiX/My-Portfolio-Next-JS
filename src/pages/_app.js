@@ -18,6 +18,21 @@ export default function App({ Component, pageProps }) {
      <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+    {/* Start of Tawk.to Script */}
+        <script type="text/javascript">
+          {`
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/68613b273111b119154e44cd/1iutsu58r';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+          `}
+        </script>
+        {/* End of Tawk.to Script */}
       </Head>
   <main className={`${montserrat.variable} font-sans bg-light dark:bg-dark dark:text-light w-full min-h-screen`}>
     <NavBar/>
@@ -29,3 +44,4 @@ export default function App({ Component, pageProps }) {
     </>
   )
 }
+
