@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }) {
     <>
      <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="public/images/favicon.ico" />
     {/* Start of Tawk.to Script */}
         <script type="text/javascript">
           {`
@@ -44,4 +44,5 @@ s0.parentNode.insertBefore(s1,s0);
     </>
   )
 }
+
 
